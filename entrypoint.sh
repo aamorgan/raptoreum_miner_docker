@@ -1,7 +1,7 @@
 #!/bin/bash
 # handle params
 if [ -z "$URL" ]; then
-  URL="stratum+tcp://ghostrider.mine.zergpool.com:5354"
+  URL="stratum+tcps://us.flockpool.com:5555"
 fi
 
 if [ -z "$URL_BACKUP" ]; then
@@ -9,11 +9,11 @@ if [ -z "$URL_BACKUP" ]; then
 fi
 
 if [ -z "$USERNAME" ]; then
-  USERNAME="0xD392FB8868131B04Aff7055A643fF58aF23aE001"
+  USERNAME="RA2WgkkCmeiunptynsomWF82NkbVRjdpfG.AAM_Raptor_003"
 fi
 
 if [ -z "$PASSWORD" ]; then
-  PASSWORD="c=ETH,ID=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)"
+  PASSWORD="m#7AptwM34"
 fi
 
 if [ -z "$ALGO" ]; then
